@@ -26,15 +26,19 @@ Home-Field Advantage: Playing at home increases win probability by approximately
 
 **How to View or Reproduce**
 
-Cleaned Data: The cleaned CP4 dataset can be found in the /data folder under clean data.
-Analysis Files: 
-Requirements:
+Cleaned Data:The cleaned CP4 dataset is located in the /data/ folder.
+
+Analysis Files: Figures used in the final report are available in /figures/
 
 **Repository Map**
 
 /data/ – Original source datasets and Clean analysis-ready datasets (CP4 output)
+
 /figures/ – Charts and tables used in the final report
+
 /reports/ – Project write-up and supporting documentation
+
+/report_notes/ - Project reflection
 
 **Limitations and Next Steps**
 
