@@ -1,5 +1,4 @@
-# NFLdefensivelevers
-The Impact of Defensive Sacks and Turnovers on Win Probability
+# The Impact of Defensive Sacks and Turnovers on Win Probability
 
 This project analyzes how defensive sacks, turnovers, and home-field advantage affect an NFL team’s likelihood of winning a game using game-level data from 2020–2024.
 
@@ -26,19 +25,35 @@ Home-Field Advantage: Playing at home increases win probability by approximately
 
 **How to View or Reproduce**
 
-Cleaned Data:The cleaned CP4 dataset is located in the /data/ folder.
+View Results: Key charts and tables used in the final analysis are available in the /figures/ folder. The written report and interpretation of results can be found in the /reports/ folder.
 
-Analysis Files: Figures used in the final report are available in /figures/
+Reproduce the Analysis (Excel): 
+
++Download or clone this repository. 
+
++Navigate to the /data/ folder and open the cleaned CP4 Excel file. 
+
++Review the cleaned game-level dataset, where each row represents a team-game.
+
++Use the regression output and summary tables in the Excel workbook to view model results.
+
++Charts can be recreated by selecting the summary table and inserting a bar chart in Excel.
+
+Files to Open
+
++Cleaned dataset: /data/cleaned_game_level.xlsx (update with your exact filename)
+
++Analysis workbook: Located in the /reports/ folder (update if your Excel file lives elsewhere)
 
 **Repository Map**
 
-/data/ – Original source datasets and Clean analysis-ready datasets (CP4 output)
++/data/ – Original source datasets and Clean analysis-ready datasets (CP4 output)
 
-/figures/ – Charts and tables used in the final report
++/figures/ – Charts and tables used in the final report
 
-/reports/ – Project write-up and supporting documentation
++/reports/ – Project write-up and supporting documentation
 
-/report_notes/ - Project reflection
++/report_notes/ - Project reflection
 
 **Limitations and Next Steps**
 
