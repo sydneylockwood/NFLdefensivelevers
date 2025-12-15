@@ -9,8 +9,11 @@ NFL defensive coordinators and analytics staff need clear evidence on which defe
 **Dataset Overview**
 
 Row Definition: One row represents a single team in a single NFL regular-season game
+
 Time Span: 2020–2024 NFL regular seasons
+
 Source Data: Play-by-play and team statistics from NFL Savant. Game outcomes from the NFLVerse GitHub repository
+
 Scope: No major filters applied; all regular-season games included
 
 **Method and Approach**
@@ -20,7 +23,9 @@ The analysis progressed from data cleaning and feature engineering in CP4, explo
 **Key Results**
 
 Turnovers: Each defensive takeaway increases win probability by approximately 9 percentage points. Takeaways have the strongest impact on winning games.
+
 Sacks: Each sack increases win probability by approximately 7 percentage points. Consistent pressure meaningfully shifts game outcomes.
+
 Home-Field Advantage: Playing at home increases win probability by approximately 5 percentage points. Home field matters, but less than defensive production.
 
 **How to View or Reproduce**
@@ -29,31 +34,31 @@ View Results: Key charts and tables used in the final analysis are available in 
 
 Reproduce the Analysis (Excel): 
 
-+Download or clone this repository. 
++ Download or clone this repository. 
 
-+Navigate to the /data/ folder and open the cleaned CP4 Excel file. 
++ Navigate to the /data/ folder and open the cleaned CP4 Excel file. 
 
-+Review the cleaned game-level dataset, where each row represents a team-game.
++ Review the cleaned game-level dataset, where each row represents a team-game.
 
-+Use the regression output and summary tables in the Excel workbook to view model results.
++ Use the regression output and summary tables in the Excel workbook to view model results.
 
-+Charts can be recreated by selecting the summary table and inserting a bar chart in Excel.
++ Charts can be recreated by selecting the summary table and inserting a bar chart in Excel.
 
 Files to Open
 
-+Cleaned dataset: /data/cleaned_game_level.xlsx (update with your exact filename)
++ Cleaned dataset: /data/cleaned_game_level.xlsx (update with your exact filename)
 
-+Analysis workbook: Located in the /reports/ folder (update if your Excel file lives elsewhere)
++ Analysis workbook: Located in the /reports/ folder (update if your Excel file lives elsewhere)
 
 **Repository Map**
 
-+/data/ – Original source datasets and Clean analysis-ready datasets (CP4 output)
++ /data/ – Original source datasets and Clean analysis-ready datasets (CP4 output)
 
-+/figures/ – Charts and tables used in the final report
++ /figures/ – Charts and tables used in the final report
 
-+/reports/ – Project write-up and supporting documentation
++ /reports/ – Project write-up and supporting documentation
 
-+/report_notes/ - Project reflection
++ /report_notes/ - Project reflection
 
 **Limitations and Next Steps**
 
