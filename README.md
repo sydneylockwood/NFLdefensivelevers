@@ -63,8 +63,12 @@ Files to Open
 **Limitations and Next Steps**
 
 Limitations
+  
   Offensive performance variables are not included, which may overstate defensive effects
+  
   All turnovers are treated equally, despite interceptions and forced fumbles likely having different impacts
 Next Steps
+  
   Separate turnover types to compare their individual effects
+  
   Run season-by-season models to evaluate result stability over time
