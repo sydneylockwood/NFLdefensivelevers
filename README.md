@@ -46,9 +46,9 @@ Reproduce the Analysis (Excel):
 
 Files to Open
 
-+ Cleaned dataset: /data/cleaned_game_level.xlsx (update with your exact filename)
++ Cleaned dataset: /data/clean_data.csv
 
-+ Analysis workbook: Located in the /reports/ folder (update if your Excel file lives elsewhere)
++ Analysis workbook: Located in the /reports/ folder
 
 **Repository Map**
 
