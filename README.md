@@ -52,7 +52,7 @@ Files to Open
 
 **Repository Map**
 
-+ /data/ – Original source datasets and Clean analysis-ready datasets (CP4 output)
++ /data/ – Original source datasets and clean analysis-ready datasets (CP4 output)
 
 + /figures/ – Charts and tables used in the final report
 
@@ -64,11 +64,12 @@ Files to Open
 
 Limitations
   
-  Offensive performance variables are not included, which may overstate defensive effects
++ Offensive performance variables are not included, which may overstate defensive effects
   
-  All turnovers are treated equally, despite interceptions and forced fumbles likely having different impacts
++ All turnovers are treated equally, despite interceptions and forced fumbles likely having different impacts
+
 Next Steps
   
-  Separate turnover types to compare their individual effects
++ Separate turnover types to compare their individual effects
   
-  Run season-by-season models to evaluate result stability over time
++ Run season-by-season models to evaluate result stability over time
